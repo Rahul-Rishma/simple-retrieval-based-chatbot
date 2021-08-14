@@ -1,0 +1,415 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hey",
+        "hi",
+        "hello",
+        "hai",
+        "aareh",
+        "kaisa hai",
+        "sun na",
+        "tu hai kya?",
+        "aareh bhai",
+        "areh",
+        "oye",
+        "koi hai?",
+        "yaha koi hai?",
+        "kya koi hai?",
+        "idhar",
+        "namaste"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "Hi!",
+        "What can I do for you?",
+        "Hey! What can I do for you?",
+        "Hi! What can I do for you?",
+        "Hello, what can I do for you?",
+        "Tell me, what can I do for you?",
+        "How can I help you?",
+        "Hey, how can I help you?",
+        "Hi,How can I help you?",
+        "Hi, let me help you?",
+        "Hey, let me help you?",
+        "Tell me, How can I help you?",
+        "Let me know, How can I help you?",
+        "Let me know, what can I help you?",
+        "Hi!, Please place your query.",
+        "Hello!, Please place your query.",
+        "Hey!, Please place your query."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "madat", "please", "pls", "plz"],
+      "responses": [
+        "What can I do for you?",
+        "Hey! What can I do for you?",
+        "Hi! What can I do for you?",
+        "Hello, what can I do for you?",
+        "Tell me, what can I do for you?",
+        "How can i help you?",
+        "Hey, how can I help you?",
+        "Hi,How can I help you?",
+        "Hi, let me help you?",
+        "Hey, let me help you?",
+        "Tell me, How can I help you?",
+        "Let me know, How can I help you?",
+        "Let me know, what can I help you?",
+        "Hi!, Please place your query.",
+        "Hello!, Please place your query.",
+        "Hey!, Please place your query."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "tata",
+        "baad mein milte hain",
+        "bye",
+        "chalo",
+        "chalo theek hai",
+        "chala",
+        "chali",
+        "night",
+        "ttyl",
+        "baad mein baat karte hain",
+        "alvida",
+        "bye han",
+        "chal"
+      ],
+      "responses": [
+        "Bye :)",
+        "Have a nice day :)",
+        "Have a wonderful day :)",
+        "Bye, Have a nice day :)",
+        "Bye, Have a wonderful day :)"
+      ]
+    },
+    {
+      "tag": "affirm",
+      "patterns": [
+        "ha",
+        "sahi hai",
+        "kya baat hai",
+        "bohot badiya",
+        "shabash",
+        "waah",
+        "kamaal ",
+        "sahi",
+        "theek",
+        "theek ",
+        "thik",
+        "thik ",
+        "ekdum sahi",
+        "haa bikul",
+        "sahi soch hai",
+        "sahmat",
+        "sahamat",
+        "is baat se mai sahmat hu",
+        "isse mai sahamat hu",
+        "ekdum acha",
+        "acha",
+        "ekdum theek",
+        "ok",
+        "okay",
+        "okie",
+        "yup",
+        "yes",
+        "yeah",
+        "correct",
+        "sure",
+        "ofc",
+        "ofcourse",
+        "of course",
+        "cool",
+        "kewl",
+        "YES",
+        "S",
+        "s",
+        "Y",
+        "y",
+        "yep",
+        "yepp",
+        "yeah sure",
+        "awesome"
+      ],
+      "responses": [
+        "Glad I could help.",
+        "Glad you are satisfied.",
+        "I am happy I could help.",
+        "I am happy I could help you.",
+        "I am glad you found what you needed.",
+        "I am happy you found what you needed.",
+        "I am happy I could help you find what you needed.",
+        "I am glad I could help you find what you needed."
+      ]
+    },
+    {
+      "tag": "deny",
+      "patterns": [
+        "na",
+        "nahi",
+        "sahi nahi hai",
+        "galat",
+        "bilkul galat",
+        "ekdam ganda",
+        "bohot galat",
+        "bohot kharab",
+        "kharab",
+        "ganda",
+        "galat",
+        "kya galat shalat bolti hai",
+        "budhihin",
+        "kya mushkil hai",
+        "nahi kiya",
+        "bilkul nahi kiya",
+        "not really",
+        "no",
+        "n",
+        "N",
+        "never",
+        "no way",
+        "dunno",
+        "I dunno",
+        "Nothing",
+        "kuch nahi"
+      ],
+      "responses": [
+        "I am sorry I could not help.",
+        "I am sorry I could not help you.",
+        "I am sorry you are not satisfied.",
+        "I am sad I could not help.",
+        "I am sad I could not help you.",
+        "I am sorry you could not find what you needed.",
+        "I am sorry you did not find what you needed.",
+        "I am sad I could not help you find what you needed.",
+        "I am sorry I could not help you find what you needed."
+      ]
+    },
+    {
+      "tag": "thankyou",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "waah thank you",
+        "badiya thank you",
+        "thank you kaam kiya",
+        "madat ke liye thank you",
+        "thx",
+        "thenks",
+        "dhanyabad",
+        "jee shukriya",
+        "waah",
+        "badiya",
+        "jee shukriya acha kaam kiya",
+        "madat ke liye jee shukriya",
+        "shukriya",
+        "waah shukriya",
+        "shukriya kaam kiya",
+        "dhanyavaad"
+      ],
+      "responses": [
+        "Glad I could help.",
+        "Glad you are satisfied.",
+        "I am happy I could help.",
+        "I am happy I could help you.",
+        "I am glad you found what you needed.",
+        "I am happy you found what you needed.",
+        "I am happy I could help you find what you needed.",
+        "I am glad I could help you find what you needed."
+      ]
+    },
+    {
+      "tag": "check_human",
+      "patterns": [
+        "bot hai?",
+        "bot ho?",
+        "AI",
+        "ai",
+        "asli",
+        "sach",
+        "virtual",
+        "robot",
+        "chatbot",
+        "jadu",
+        "kon ho?",
+        "kya ho tum"
+      ],
+      "responses": [
+        "Yes, I am a bot :)",
+        "Hi, I am a bot!",
+        "Yes, I am a robot :)",
+        "Yes, I am an AI :)",
+        "Yes, I am virtual :)",
+        "Yes, I am a chatbot :)",
+        "What do you think I am?",
+        "I am magic!"
+      ]
+    },
+    {
+      "tag": "handoff",
+      "patterns": [
+        "handoff",
+        "operator",
+        "head se baat karao",
+        "head",
+        "agent",
+        "asli insaan",
+        "asli manushya",
+        "Agent :("
+      ],
+      "responses": [
+        "Sorry I could not help you. Here are the details to talk to a real operator."
+      ]
+    },
+    {
+      "tag": "enquire",
+      "patterns": [
+        "enquire",
+        "enquiry",
+        "muje enquire karna hai",
+        "janna hai",
+        "poochhana hai",
+        "poochhana",
+        "janna",
+        "janne",
+        "seekhana"
+      ],
+      "responses": [
+        "What would you like to ask?",
+        "What would yo ulike to enquire?",
+        "What would you like to learn?",
+        "Yes, what would you like to ask?",
+        "Yes, what would you like to enquire?",
+        "Yes, what would you like to learn?",
+        "Let me help you ask your queries.",
+        "Yes,let me help you ask your queries."
+      ]
+    },
+    {
+      "tag": "deposits",
+      "patterns": ["deposits", "deposits", "account", "accounts"],
+      "responses": [
+        "A deposit account is a bank account maintained by a financial institution in which a customer can deposit or withdraw money while earning interest simultaneously.",
+        "Bank deposits consist of money placed into banking institutions for safekeeping. These deposits are made to deposit accounts such as savings accounts, checking accounts, and money market accounts."
+      ]
+    },
+
+    {
+      "tag": "recurring_deposits1",
+      "patterns": ["recurring", "recurrings"],
+      "responses": [
+        "A recurring deposit is a type of deposit in which there are fixed installments that have to be invested in an account at fixed intervals of time for a pre-decided period.",
+        "Recurring Deposits (RD) provides customers with the flexibility to invest an amount of their choice each month and save money with ease."
+      ]
+    },
+    {
+      "tag": "fixed_deposits1",
+      "patterns": ["fixed"],
+      "responses": [
+        "Fixed deposit is a financial investment instrument offered by banks wherein investors can deposit money and get a high rate of interest than a normal savings account.",
+        "Fixed deposit is a financial investment instrument offered by banks & NBFCs wherein investors can deposit money and get a high rate of interest than a normal savings account."
+      ]
+    },
+    {
+      "tag": "loans1",
+      "patterns": ["loan", "loans"],
+      "responses": [
+        "A loan is when money is given to another party in exchange for repayment of the loan principal amount plus interest. Loan terms are agreed to by each party and contract is created."
+      ]
+    },
+    {
+      "tag": "fetch_balance",
+      "patterns": [
+        "balance",
+        "rupiyah",
+        "paise",
+        "money kinta",
+        "rupee",
+        "rupees",
+        "paisa",
+        "cash",
+        "mere pas kitna hai"
+      ],
+      "responses": ["Enter the following details to check account balance."]
+    },
+    {
+      "tag": "checkOut_vendor",
+      "patterns": [
+        "vendor",
+        "baki hai",
+        "merchant",
+        "3rd party",
+        "third party"
+      ],
+      "responses": ["Enter the following details to check merchant details."]
+    },
+    {
+      "tag": "checkOut_monthlySubscription",
+      "patterns": [
+        "monthly subscription",
+        "maashik shulk",
+        "netlfix",
+        "mahina",
+        "mahina bhar",
+        "prime",
+        "gas",
+        "electricity",
+        "bijli",
+        "paani",
+        "water",
+        "utility",
+        "bill",
+        "tv",
+        "television",
+        "rent",
+        "kiraya"
+      ],
+      "responses": [
+        "Enter the following details to check monthly subscription details."
+      ]
+    },
+    {
+      "tag": "acc_to_acc",
+      "patterns": [
+        "transfer",
+        "bhejna",
+        "bhej na",
+        "dena hai",
+        "usko",
+        "dost ko bhejna",
+        "relative ko dena",
+        "rishtedaar ko bhejna",
+        "uske account mein jama karna",
+        "jama karna",
+        "account to account",
+        "send money"
+      ],
+      "responses": ["Enter the following details to transfer money."]
+    },
+    {
+      "tag": "show_transaction",
+      "patterns": [
+        "transaction",
+        "show",
+        "len den",
+        "kata",
+        "kharch",
+        "khata",
+        "passbook",
+        "purchases",
+        "khareedari",
+        "hisab kitaab",
+        "statements",
+        "account statements"
+      ],
+      "responses": [
+        "Enter the following details to check last 5 transaction details."
+      ]
+    }
+  ]
+}
